@@ -1,0 +1,253 @@
+/* Familia tipo gráfica  get embed e insertar como codigo e importa*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    background-color: #000f08;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.nav__item{
+    display: flex;
+    align-items: center;
+    padding: 0.50rem 0;
+    list-style: none;
+    font-size: 1.2rem;		
+}
+
+.nav__container{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 5rem;
+}
+
+.nav__link{
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 2rem;
+    text-decoration: none;
+}
+
+/* inicio del header */
+.header{
+    width: 100%;
+    height: 23rem;
+    position: relative;
+    z-index: 0;
+    margin-top: 3.5rem;
+}
+.header__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.header__info{
+    position: absolute;
+    color: #fff;
+    z-index: 10; 
+    top: 20%;
+    left: 43%;    
+    text-align: right;
+}
+.header__info h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 5px 5px 10px rgb(0,0,0.7);
+}
+
+
+.header__info h2{
+    font-size: 2rem;
+    font-weight: 200;
+    text-shadow: 5px 5px 10px rgb(0,0,0.7);
+}
+
+
+/* Inicio de section Wework */
+
+.sectionWework{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+}
+
+.sectionWework__title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.sectionWework__img{
+    width: 60%;
+    height: 50%;
+    margin-bottom: 2rem;
+    border-radius: 0.50rem;
+}
+
+.sectionWework h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+
+/* inicio de sectionSpeaker */
+.sectionSpeaker{
+  width: 100%;
+  height: 26rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #A4452C;
+}
+
+.sectionSpeaker__container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%; 
+  height: auto; 
+}
+
+.sectionSpeaker__img {
+  width: 15rem; 
+  border-radius: 5px;
+  opacity: 1;
+  background: #B36B0107 0% 0% no-repeat padding-box;
+}
+
+.sectionSpeaker__info {
+  display: flex;
+  letter-spacing: 0.9px;
+  color: #ffffff; 
+  text-align: left;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sectionSpeaker__info h3 {
+    font-weight: 800;
+    font-size: 2rem;   
+}
+
+.sectionSpeaker__info h4{
+    font-weight: 700;
+    font-size: 1.8rem;   
+}
+
+.sectionSpeaker__info h5{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;  
+}
+
+.sectionSpeaker__info{
+    font-weight: 400;
+}
+
+.sectionSpeaker__info p{
+  margin-top: 1rem;
+}
+
+
+/* inicio de eventos anteriores */
+.sectionEventos{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 30rem;
+}
+
+.containerEventos{
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.sectionEventos h5{
+    text-align: center;
+    padding: 2.5rem;
+    font-size: 2rem;
+}
+
+.containerEventos{
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.article img{
+   border-radius: 0.50rem;
+}
+
+/* inicio de footer */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #000F08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      padding: 2rem;
+    gap: 1rem;
+  }
+  
+  .navDelFooter{
+      gap: 2rem;
+    display: flex;
+      padding-top: 2rem;
+  }
+
+
+
+/*  inicio de la pagina 2 */
+.main__evento01{
+	width: 100%;
+	display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 1.8rem;
+	padding: 7rem 25rem 5rem 25rem;
+  color: #000F08;
+}
+
+.main__evento01 h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
