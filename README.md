@@ -14,8 +14,8 @@ industria. Para lograrlo, necesitarás aplicar adecuadamente la estructura y sin
 
 ## Instalación del Proyecto: 
 
-para poder instalar y hacer correr el proyecto en nuestro local es necesario: 
-- clonar el proyecto y abrir directamente.
+Para poder instalar y hacer correr el proyecto en nuestro local es necesario: 
+- clonar el proyecto y abrir directamente en el navegador
 
 ## Dependencias:
 
@@ -28,3 +28,4 @@ Las herramientas utilizadas son:
 
 Toda el desafío fue desarrollado solo a partir de una  hoja de estilo en cascada (CSS).
 
+Camila Serantoni R.
